@@ -2,3 +2,4 @@ streamlit
 Pillow
 python-dotenv
 generativeai
+opencv-python
