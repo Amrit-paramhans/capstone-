@@ -20,7 +20,7 @@ JSONL_LOG_FILE = "vlm_training_data.jsonl"
 
 # 🎨 Page config
 st.set_page_config(page_title="VLM Autonomous Driving MVP", layout="centered")
-st.title("🚘 Vision-Language Autonomous Driving Assistant (Gemini)")
+st.title("🚘 Vision-Language Autonomous Driving Assistant")
 
 # ✅ Log data to CSV
 def log_to_csv(image_name, prompt, completion, hazard_tag="No"):
